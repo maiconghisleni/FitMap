@@ -21,6 +21,7 @@ body{
     background-color: white;
     padding-bottom: 50px;
     transition: 1s;
+    width: 100%;
 }
 .conteudo2{
     background-color: #393E41;
@@ -150,4 +151,10 @@ img{
 }
 .sobre p{
     font-size: 1.3em;
+ }
+ @media(max-width: 450px){
+    img{
+        display: none;
+    }
+    
  }
