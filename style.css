@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sofadi+One&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Reddit Sans Condensed", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 body{
-    background-color: #393E41;
+    background-image: url(images/pexels-jplenio-1105382.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -81,39 +81,49 @@ body{
     width: 400px;
     height: 25px;
     border-radius: 50px;
-    transition: 0,5;
 }
 .as{
     display: inline;
     padding-left: 10px;
     align-items: center;
-    align-content: center;
-    transition: 0,5;
+    align-content: center; 
 }
 a{
+    font-size: 1.1em;
     color: white;
     text-align: center;
     text-decoration: none;
 }
-h1.tit{
+.titulo{
     color: white;
-    padding-top: 100px;
-    font-size: 3em;
+    padding-top: 9%;
+    font-size: 1.3em;
+}
+.titulo h1{
+    font-size: 4em;
+}
+.titulo p {
+    font-family: "Oswald", sans-serif;
 }
 .par{
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 button{
     margin-top: 40px;
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: #449DD1;
+    color: white;
+    transition: 0.5s;
+    border-color: #2892D7
 }
 a:hover{
     color: #2892D7;
 }
 button:hover{
     cursor: pointer;
+    width: 230px;
 }
 #link-topo{ 
     text-decoration: none;
@@ -132,6 +142,12 @@ button:hover{
     margin: auto
 }
 img{
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 270px;
 }
+.sobre h1{
+   font-size: 2em;
+}
+.sobre p{
+    font-size: 1.3em;
+ }
