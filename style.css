@@ -142,7 +142,7 @@ button:hover{
     padding-top: 50px;
     margin: auto
 }
-img{
+img.imgcon{
     width: 350px;
     height: 270px;
 }
@@ -153,7 +153,7 @@ img{
     font-size: 1.3em;
  }
  @media(max-width: 700px){
-    
+
     img{
         display: none;
     }
