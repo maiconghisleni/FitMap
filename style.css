@@ -154,8 +154,18 @@ img.imgcon{
  }
  @media(max-width: 700px){
 
-    img{
+    img.imgcon{
         display: none;
     }
-    
+    .in{
+        font-size: 0.8em;
+    }
+    .par{
+        font-size: 1em;
+    }
+ }
+ img.hand{
+    padding-top: 30px;
+    width: 300px;
+    height: 100px;
  }
