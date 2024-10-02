@@ -190,11 +190,4 @@ img.imgcon{
         font-size: 4em
     }
  }
- @media(max-width: 500px) {
-    .titulo h1{
-        font-size: 2em;
-    }
-    h1.life{
-        font-size: 3em
-    }
- }
+

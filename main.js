@@ -13,17 +13,17 @@ window.addEventListener('scroll', function(){
 })
 
 $(document).ready(
-    function() {
-        $('.masthead').visibility({
-            once: false,
-            onBottonPassed: function() {
-                $('.fixed.menu').transition('fade in');
-            },
-            onBottonPassedReverse: function() {
-                $('.fixed.menu').transition('fade out');
-            }
-        });
+        function() {
+            $('.masthead').visibility({
+                once: false,
+                 onBottonPassed: function() {
+                    $('.fixed.menu').transition('fade in');
+                },
+                onBottonPassedReverse: function() {
+                    $('.fixed.menu').transition('fade out');
+                }
+            });
 
-        $('.ui.sidebar').sidebar('attach events','.toc.item');
-    }
-);
+            $('.ui.sidebar').sidebar('attach events','.toc.item');
+        }
+    );
