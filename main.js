@@ -11,3 +11,19 @@ window.addEventListener('scroll', function(){
     onda3.style.backgroundPositionX = 200 + rolagemPos * 1 + 'px'
     onda4.style.backgroundPositionX = 100 + rolagemPos * -1 + 'px'
 })
+
+$(document).ready(
+    function() {
+        $('.masthead').visibility({
+            once: false,
+            onBottonPassed: function() {
+                $('.fixed.menu').transition('fade in');
+            },
+            onBottonPassedReverse: function() {
+                $('.fixed.menu').transition('fade out');
+            }
+        });
+
+        $('.ui.sidebar').sidebar('attach events','.toc.item');
+    }
+);
