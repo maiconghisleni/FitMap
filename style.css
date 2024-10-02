@@ -78,16 +78,14 @@
     background-position-x: 100px;
 }
 .flex{
-    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, white, rgb(255, 255, 255));
     display: flex;
     color: black;
     height: 50px;
-    width: 600px;
 }
 .fitty{
     display: flex;
     margin-top: 5px;
-    padding-left: 10px;
     font-size: 2em;
     font-weight: 100;
     font-family: monospace;
