@@ -62,14 +62,14 @@ input{
     padding-top: 10px;
 }
 .butt{
-   padding-left: 30%;
+   padding-left: 10%;
 }
 .botao{
     border-color: #393E41;
     color: white;
     background-color: #393E41;
-    border-radius: 10px;
-    width: 100px;
+    border-radius: 2px;
+    width: 300px;
     padding: 5px;
 }
 
@@ -89,8 +89,4 @@ input{
     .content{
         background-image: linear-gradient(to right, white, white, white)
     }
-        input{
-            width: 50px;
-            height: 50px;
-        }
 }   
