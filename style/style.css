@@ -9,7 +9,7 @@
 }
 
 .bhana{
-    background-image: url(images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,7 +43,7 @@
     height: 50px;
     position: absolute;
     bottom: 0;
-    background-image: url(images/onda.png);
+    background-image: url(../images/onda.png);
     background-size: 1000px;
     animation: ondaAnimada 5s ease-in-out infinite alternate;
 }
