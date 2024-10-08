@@ -1,44 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
 }
 
-section{
-    background-color: #393E41;
-    height: 100vh;
-}
-
-
-.lojat{
-    padding-top: 20px;
-    padding-left: 12%;
-    padding-bottom: 50px;
-    font-size: 3em;
-    text-align: left;
-    color: white;
-}
-
-.flex{
+.content{
     display: flex;
-    margin-bottom: 50px;
-    justify-content: space-evenly;
-}
-
-.growth{
-    width: 250px;
-    box-shadow: -1px -1px 7px 3px white;
-}
-img{
-    width: 250px;
-    height: 300px;
-}
-p{
-    padding: 10px;
-    color: white;
-    text-align: center;
-    width: 100%;
-    background-color: #393E41;
 }
 
 .flexside{
@@ -51,29 +21,19 @@ p{
     padding-top: 5px;
 }
 
-img.drew{
-    width: 400px;
+.loja1{
+    background-color: black;
+    width: 33.3%;
+    height: 100vh;
 }
-
-
-@media (max-width: 750px) {
-    .flex{
-        display: block;
-    }
-    .growth{
-        margin: auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+.loja2{
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 33.3%;
+    height: 100vh;
 }
-
-@media (max-width: 1050px) {
-    img.drew{
-        display: none;
-    }
-    .lojat{
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 0px;
-    }
+.loja3{
+    background-color: black;
+    width: 33.3%;
+    height: 100vh;
 }
+    
