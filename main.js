@@ -43,6 +43,25 @@ $('document').ready(
                         }
                     ]
                 },
+                secondname: {
+                    identifier: 'secondname',
+                    rules: [
+                        {
+                            type: 'empty',
+                        }
+                    ]
+                },
+                telefone: {
+                    identifier: 'telefone',
+                    rules: [
+                        {
+                            type: 'empty',
+                        },
+                        {
+                            type: 'length[8]',
+                        }
+                    ]
+                },
                 email: {
                     indentifier: 'email',
                     rules: [

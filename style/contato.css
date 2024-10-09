@@ -8,14 +8,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to right, #0a3b53, #1c7ab4, #0a3b53)
+    background-image: linear-gradient(to right, #2c2b2b, #5d6163, #575b5e)
 }
 .first-column{
-    color: #393E41;
+    color: white;
     border-radius: 10px 0px 0px 10px;
     width: 500px;
-    height: 500px;
-    background-color: #7EE8FA;
+    height: 600px;
+    background-color: #393E41;
 }
 .first-column h1{
     padding-top: 0%;
@@ -29,7 +29,7 @@
 .second-column{
     border-radius: 0px 10px 10px 0px;
     width: 600px;
-    height: 500px;
+    height: 600px;
     background-color: white;
 }
 img{
@@ -40,7 +40,7 @@ img{
 
 h1.call{
     font-size: 3em;
-    padding-top: 40px;
+    padding-top: 10px;
     color: #393E41;
     text-align: center;
 }
@@ -80,6 +80,7 @@ input{
     .second-column{
         width: 500px;
         height: 600px;
+        border-radius: 10px 10px 10px 10px;
     }
     .center{
         margin-left: 10%;
