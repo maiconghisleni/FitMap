@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMap</title>
+    <link rel="stylesheet" href="style/teste.css">
+    <link rel="stylesheet" type="text/css" href="vendor/semantic/semantic.min.css">
+    <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+    <script src="vendor/semantic/semantic.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sect">
+        <div class="container">
+            <div class="content">
+                <div class="first-column">
+                    <img src="images/imc.svg" alt="ready">
+                </div>
+                <div class="second-column">
+                    <a href="index.html"><i class="angle double huge left icon"></i></a>
+                    <h1 class="call">IMC TEST</h1>
+                    <p class="descr">Veja se você está em forma com nosso teste!</p>
+                    <div class="center">
+                        <div class="ui mini form">
+                            <div class="field">
+                                <label>Altura</label>
+                                <input id="altura" type="number" placeholder="Digite sua Altura">
+                            </div>
+                            <div class="field">
+                                <label>Peso</label>
+                                <input id="peso" type="number" placeholder="Digite seu peso">
+                            </div>
+                            <div class="butt">
+                                <button onclick="calcular()" class="botao">Mandar</button>
+                            </div>
+                            <div class="imc">
+                                <div id="res"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <script src="imc.js"></script>
+
+</div>
+</body>
+</html>
